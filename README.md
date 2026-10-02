@@ -1,16 +1,52 @@
-# React + Vite
+# React User Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple user dashboard built with React.js and Vite.
 
-Currently, two official plugins are available:
+This project was created as a learning project to practice React fundamentals and consuming REST APIs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Display users from REST API
+- Search users by name
+- Loading state
+- Error handling
+- Reusable React components
+- Responsive layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies
 
-## Expanding the ESLint configuration
+- React.js
+- Vite
+- JavaScript
+- CSS
+- REST API
+- JSONPlaceholder
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## API
+
+This project uses JSONPlaceholder as a fake REST API:
+
+https://jsonplaceholder.typicode.com/users
+
+## React Concepts
+
+This project implements several React concepts:
+
+- Components
+- JSX
+- Props
+- useState
+- useEffect
+- Event Handling
+- Conditional Rendering
+- List Rendering with map()
+- Array filtering with filter()
+- Form & Input handling
+- Fetch API
+
+## How to Run
+
+Clone this repository:
+
+```bash
+git clone https://github.com/RamadhanLinggar/react-user-dashboard.git
