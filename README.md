@@ -1,6 +1,3 @@
-
-Jadi **replace seluruh isi `README.md`** dengan versi lengkap ini:
-
 ```md
 # React User Dashboard
 
