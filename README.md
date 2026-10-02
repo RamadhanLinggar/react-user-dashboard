@@ -1,3 +1,7 @@
+
+Jadi **replace seluruh isi `README.md`** dengan versi lengkap ini:
+
+```md
 # React User Dashboard
 
 A simple user dashboard built with React.js and Vite.
