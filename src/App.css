@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #1f2937;
+}
+
+.app {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.header p {
+    margin: 0;
+    color: #6b7280;
+}
+
+.search-container {
+    margin-bottom: 30px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-container input:focus {
+    border-color: #2563eb;
+}
+
+.user-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.user-card {
+    background-color: white;
+    padding: 24px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.user-card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.user-info p {
+    margin: 12px 0;
+    color: #4b5563;
+}
+
+.user-info strong {
+    display: block;
+    margin-bottom: 4px;
+    color: #111827;
+}
+
+.status {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.error {
+    color: #dc2626;
+}
+
+.not-found {
+    text-align: center;
+    color: #6b7280;
+}
+
+@media (max-width: 700px) {
+    .user-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .app {
+        padding: 25px 15px;
+    }
+
+    .header h1 {
+        font-size: 26px;
+    }
+}
